@@ -1,0 +1,226 @@
+body {
+    background: black;
+    background-size: 100%;
+    width: 1440px;
+    height: 900px;
+    cursor: none;
+}
+
+#mouse-circle {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin: -32px 0 0 -32px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    pointer-events: none;
+    filter: blur(20px);
+}
+
+.circle1 {
+    background-color:transparent;
+    border:1.5px solid white;    
+    height: 337px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 337px;
+    position: absolute;
+    left: 573px;
+    top: -82px;
+    box-sizing: border-box;
+}
+
+.circle1 a:hover {
+    color:#B69DFD;
+}
+
+.circle2 {
+    background-color:transparent;
+    border:1.5px solid white;    
+    height: 337px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 337px;    
+    position: absolute;
+    width: 337px;
+    height: 337px;
+    left: 197px;
+    top: 128px;
+    box-sizing: border-box;
+}
+
+.circle2 a:hover {
+    color: #DC3535;
+}
+
+.circle3 {
+    background-color:transparent;
+    border:1.5px solid white;    
+    height: 337px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 337px; 
+    position: absolute;
+    width: 337px;
+    height: 337px;
+    left: 313px;
+    top: 348px;
+    box-sizing: border-box;
+}
+
+.circle3 a:hover {
+    color: #8FA1FF;
+}
+
+.circle4 {
+    background-color:transparent;
+    border:1.5px solid white;    
+    height: 337px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 337px; 
+    position: absolute;
+    width: 337px;
+    height: 337px;
+    left: 83px;
+    top: 517px;
+    box-sizing: border-box;
+}
+
+.circle4 a:hover {
+    color: #95FFE6;
+}
+
+.circle5 {
+    background-color:transparent;
+    border:1.5px solid white;    
+    height: 337px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 337px;  
+    position: absolute;
+    width: 337px;
+    height: 337px;
+    left: 852px;
+    top: 508px;
+    box-sizing: border-box;  
+}
+
+.circle5 a:hover {
+    color: #FFE49F;
+}
+
+.text1 {
+    font-family: 'Abhaya Libre', serif;
+    position: absolute;
+    width: 633px;
+    height: 91px;
+    left: -140px;
+    top: 150px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.text2 {
+    font-family: 'Abhaya Libre', serif;
+    position: absolute;
+    width: 633px;
+    height: 91px;
+    left: -140px;
+    top: 100px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.text3 {
+    font-family: 'Abhaya Libre', serif;
+    position: absolute;
+    width: 633px;
+    height: 91px;
+    left: -140px;
+    top: 150px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.text4 {
+    font-family: 'Abhaya Libre', serif;
+    position: absolute;
+    width: 633px;
+    height: 91px;
+    left: -140px;
+    top: 150px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.text5 {
+    font-family: 'Abhaya Libre', serif;
+    position: absolute;
+    width: 633px;
+    height: 91px;
+    left: -140px;
+    top: 150px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1 {
+    position: absolute;
+    width: 591px;
+    height: 439px;
+    left: 786px;
+    top: 282px;
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 77px;
+    text-align: center;
+    color: #FFFFFF;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {color: white;}
+    50%  {color: black;}
+    100%  {color: white;}
+}

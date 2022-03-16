@@ -136,17 +136,46 @@ btn1.addEventListener('click', function() {
 }, false);
 
 
-var btn3 = document.querySelector('#btn3');
+var btn3 = document.querySelector('#btn3')
+var uncle = document.querySelector(".uncle")
+var uncle1 = document.querySelector(".uncle1")
+var uncle2 = document.querySelector(".uncle2")
+var uncle3 = document.querySelector(".uncle3")
+var uncle4 = document.querySelector(".uncle4")
+var uncle5 = document.querySelector(".uncle5")
+var uncle6 = document.querySelector(".uncle6");
 
 btn3.addEventListener('click', function() {
   btn3.classList.toggle('text3-active');
+  uncle.classList.toggle('uncle-active')
+  uncle1.classList.toggle('uncle1-active')
+  uncle2.classList.toggle('uncle2-active')
+  uncle3.classList.toggle('uncle3-active')
+  uncle4.classList.toggle('uncle4-active')
+  uncle5.classList.toggle('uncle5-active')
+  uncle6.classList.toggle('uncle6-active');
 
   if (btn3.getAttribute("text3") == btn3.style) {
-    btn3.style = btn3.getAttribute("text3-active");
+    btn3.style = btn3.getAttribute("text3-active")
+    uncle.style = uncle.getAttribute("uncle-active")
+    uncle1.style = uncle1.getAttribute("uncle1-active")
+    uncle2.style = uncle2.getAttribute("uncle2-active")
+    uncle3.style = uncle3.getAttribute("uncle3-active")
+    uncle4.style = uncle4.getAttribute("uncle4-active")
+    uncle5.style = uncle5.getAttribute("uncle5-active")
+    uncle6.style = uncle6.getAttribute("uncle6-active");
+
 
   } else {
     btn3.setAttribute("text3-active", btn3.style);
     btn3.style = btn3.getAttribute("text3");
+    uncle.style = uncle.getAttribute("uncle")
+    uncle1.style = uncle1.getAttribute("uncle1")
+    uncle2.style = uncle2.getAttribute("uncle2")
+    uncle3.style = uncle3.getAttribute("uncle3")
+    uncle4.style = uncle4.getAttribute("uncle4")
+    uncle5.style = uncle5.getAttribute("uncle5")
+    uncle6.style = uncle6.getAttribute("uncle6");
   }
 }, false);
 

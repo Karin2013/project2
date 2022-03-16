@@ -271,4 +271,10 @@ p {
     color: #B0D5FF;
 }
 
+.uncle, .uncle1, .uncle2, .uncle3, .uncle4, .uncle5, .uncle6 {
+    color: black;
+}
 
+.uncle-active, .uncle1-active, .uncle2-active, .uncle3-active, .uncle4-active, .uncle5-active, .uncle6-active {
+    color: #95FFE6;
+}

@@ -25,6 +25,16 @@
                 head.appendChild(script);
             }
         </script>
+
+        <script>
+            if (screen.width < 400) {
+                var head = document.getElementsByTagName('head')[0];
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = "js/text.js";
+                head.appendChild(script);
+            }
+        </script>
     </head>
 
     <body onload="myFunction5()">

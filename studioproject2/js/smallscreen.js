@@ -377,6 +377,7 @@ function myFunction1() {
     myself11.style.color = "#FFE49F"; 
     myself12.style.color = "#FFE49F"; 
     myself13.style.color = "#FFE49F";
+    hidemenu.style.display = "block";
 }
 
 function myFunction2() {
@@ -402,6 +403,7 @@ function myFunction2() {
     brother6.style.color = "#B0D5FF"; 
     brother7.style.color = "#B0D5FF"; 
     brother8.style.color = "#B0D5FF";
+    hidemenu.style.display = "block";
 }
 
 function myFunction3() {  
@@ -423,6 +425,7 @@ function myFunction3() {
     uncle4.style.color = "#95FFE6";
     uncle5.style.color = "#95FFE6";
     uncle6.style.color = "#95FFE6";
+    hidemenu.style.display = "block";
 }
 
 function myFunction4() {
@@ -446,6 +449,7 @@ function myFunction4() {
     mother5.style.color = "#B69DFD";
     mother6.style.color = "#B69DFD";
     mother7.style.color = "#B69DFD";
+    hidemenu.style.display = "block";
 }
 
 

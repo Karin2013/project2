@@ -287,10 +287,11 @@ p {
     color: #DC3535;
 }
 
+
 .button1 {
     position: absolute;
-    top: 50px;
-    left: 1300px;
+    top: 80px;
+    left: 1050px;
     vertical-align: bottom;
     width: 550px;
     align-content: center;
@@ -300,7 +301,6 @@ p {
 .button1 a:hover {
     text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #ab88ec, 0 0 40px #ab88ec, 0 0 50px #ab88ec, 0 0 60px #ab88ec, 0 0 70px #ab88ec ;
 }
-
 
 .reveal {
     font-family: 'Abhaya Libre', serif;
@@ -312,9 +312,3 @@ p {
     color: #FFFFFF;
     text-decoration: none;
 }
-
-
-
-
-
-

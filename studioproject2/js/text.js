@@ -129,7 +129,8 @@ btn2.addEventListener('click', function() {
     brother4.style = brother4.getAttribute("brother4-active")
     brother5.style = brother5.getAttribute("brother5-active")
     brother6.style = brother6.getAttribute("brother6-active")
-    brother7.style = brother7.getAttribute("brother7-active");
+    brother7.style = brother7.getAttribute("brother7-active")
+    brother8.style = brother7.getAttribute("brother8-active");
 
   } else {
     btn2.setAttribute("text2-active", btn2.style);
@@ -141,7 +142,8 @@ btn2.addEventListener('click', function() {
     brother4.style = brother4.getAttribute("brother4")
     brother5.style = brother5.getAttribute("brother5")
     brother6.style = brother6.getAttribute("brother6")
-    brother7.style = brother7.getAttribute("brother7");
+    brother7.style = brother7.getAttribute("brother7")
+    brother8.style = brother8.getAttribute("brother8-active");
   }
 }, false);
 
@@ -384,7 +386,8 @@ function myFunction2() {
   var brother4 = document.querySelector(".brother4")
   var brother5 = document.querySelector(".brother5")
   var brother6 = document.querySelector(".brother6")
-  var brother7 = document.querySelector(".brother7");
+  var brother7 = document.querySelector(".brother7")
+  var brother8 = document.querySelector(".brother8");
 
     btn2.style.color = "#B0D5FF";
     btn2.style.textShadow = "0 0 5px #fff, 0 0 20px #fff, 0 0 30px #ab88ec, 0 0 40px #ab88ec, 0 0 50px #ab88ec, 0 0 60px #ab88ec, 0 0 70px #ab88ec";
@@ -396,6 +399,7 @@ function myFunction2() {
     brother5.style.color = "#B0D5FF";
     brother6.style.color = "#B0D5FF"; 
     brother7.style.color = "#B0D5FF"; 
+    brother8.style.color = "#B0D5FF";
 }
 
 function myFunction3() {  

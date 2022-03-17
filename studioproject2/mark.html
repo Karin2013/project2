@@ -15,7 +15,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Mandali&display=swap" rel="stylesheet">
-        <script src="js/text.js" defer></script>
+        <script src="js/text.js"></script>
+        <script>
+            if (screen.width > 400) {
+                var head = document.getElementsByTagName('head')[0];
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = "js/smallscreen.js";
+                head.appendChild(script);
+            }
+        </script>
     </head>
 
     <body onload="myFunction5()">
@@ -217,17 +226,7 @@
                     </div>
                 </span>
                 
-
             </section>
-            <script>
-                if (screen.width < 400) {
-                    var head = document.getElementsByTagName('head')[0];
-                    var script = document.createElement('script');
-                    script.type = 'text/javascript';
-                    script.src = 'js/smallscreen.js';
-                    head.appendChild(script);
-                }
-            </script>
         </main>
         <footer></footer>
     </body>

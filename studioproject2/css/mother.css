@@ -317,11 +317,11 @@ p {
     text-decoration: none;
 }
 
-.menu {
+.container {
     display: none;
 }
 
-@media onlyscreen and (max-width: 400px) {
+@media (max-width: 400px) {
     body {
         width: 375px;
         position: fixed;
@@ -330,18 +330,15 @@ p {
     }
     
     .maincontent {
-        display: inline-block;
+        display: block;
         width: 375px;
     }
 
     .container {
         display: block;
-        background-color: blue;
-        width: 50px;
-        height: 50px;
         position: absolute;
         top: 140px;
-        left: 40px;
+        left: 0px;
         cursor: pointer;
     }
 
@@ -495,16 +492,6 @@ p {
         display: none;
     }
 
-    .button1 {
-        display: block;
-        position: absolute;
-        bottom: 30px;
-        left: 50px;
-        width: 50px;
-        align-content: center;
-        height: 70px;
-    }
-
     .myself,.myself1, .myself2, .myself3, .myself4, .myself5, .myself6, .myself7, .myself8, .myself9, .myself10, .myself11, .myself12, .myself13{
         color: black;
     }
@@ -546,12 +533,11 @@ p {
     }
     
     .button1 {
-        background-color: blue;
         display: block;
         position: absolute;
-        top: 50px;
-        left: 1300px;
-        width: 550px;
+        bottom: 0px;
+        left: 50px;
+        width: 50px;
         align-content: center;
         height: 70px;
     }
@@ -561,7 +547,7 @@ p {
     }
 }
 
-@media onlyscreen and(max-width: 1280px) {
+@media (max-width: 1280px) {
     body {
         background: black;
         max-width: 1280px;
@@ -589,10 +575,7 @@ p {
         margin: 20px;
     }
     
-    .container {
-        display: none;
-    }
-
+    
     .bodytext {
         max-height: 520px;
         overflow-y: scroll;
@@ -675,6 +658,8 @@ p {
     .circle5 a:hover {
         color: #DC3535;
     }
+    
+    
     
     
     .nav {
@@ -882,7 +867,7 @@ p {
         text-decoration: none;
     }
     
-    .menu {
+    .container {
         display: none;
     }
 

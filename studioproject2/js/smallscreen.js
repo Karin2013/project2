@@ -377,7 +377,6 @@ function myFunction1() {
     myself11.style.color = "#FFE49F"; 
     myself12.style.color = "#FFE49F"; 
     myself13.style.color = "#FFE49F";
-    hidemenu.style.display = "block";
 }
 
 function myFunction2() {
@@ -403,7 +402,6 @@ function myFunction2() {
     brother6.style.color = "#B0D5FF"; 
     brother7.style.color = "#B0D5FF"; 
     brother8.style.color = "#B0D5FF";
-    hidemenu.style.display = "block";
 }
 
 function myFunction3() {  
@@ -425,7 +423,6 @@ function myFunction3() {
     uncle4.style.color = "#95FFE6";
     uncle5.style.color = "#95FFE6";
     uncle6.style.color = "#95FFE6";
-    hidemenu.style.display = "block";
 }
 
 function myFunction4() {
@@ -449,7 +446,6 @@ function myFunction4() {
     mother5.style.color = "#B69DFD";
     mother6.style.color = "#B69DFD";
     mother7.style.color = "#B69DFD";
-    hidemenu.style.display = "block";
 }
 
 
@@ -460,6 +456,7 @@ function myFunction5() {
   var mark2 = document.querySelector(".mark2")
   var mark3 = document.querySelector(".mark3")
   var mark4 = document.querySelector(".mark4");
+  var hidemenu = document.querySelector('.hidemenu');
 
     btn5.style.color = "#DC3535";
     btn5.style.textShadow = "0 0 5px #fff, 0 0 20px #fff, 0 0 30px #ab88ec, 0 0 40px #ab88ec, 0 0 50px #ab88ec, 0 0 60px #ab88ec, 0 0 70px #ab88ec";
@@ -468,6 +465,7 @@ function myFunction5() {
     mark2.style.color = "#DC3535";
     mark3.style.color = "#DC3535";
     mark4.style.color = "#DC3535";
+    hidemenu.style.display = "block";
 }
 
 function myFunction(x) {
@@ -477,7 +475,6 @@ function myFunction(x) {
 var button = document.querySelector("#button");
 var hidemenu = document.querySelector('.hidemenu');
 var bodytext = document.querySelector('.bodytext');
-var container = document.querySelector('.container');
 
   button.addEventListener('click', function() {
      hidemenu.classList.toggle ("hidemenu-active")
@@ -489,6 +486,7 @@ var container = document.querySelector('.container');
 
     } else {
        hidemenu.setAttribute("hidemenu-active", hidemenu.style);
-      bodytext.style = bodytext.getAttribute("bodytext-active");
+       bodytext.style = bodytext.getAttribute("bodytext-active");
+       button.style.display = "block"
     }
   }, false);

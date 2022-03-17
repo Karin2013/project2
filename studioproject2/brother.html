@@ -15,7 +15,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Mandali&display=swap" rel="stylesheet">
-        <script src="js/text.js" defer></script>
+        <script src="js/text.js"></script>
+        <script>
+            if (screen.width > 400) {
+                var head = document.getElementsByTagName('head')[0];
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = "js/smallscreen.js";
+                head.appendChild(script);
+            }
+        </script>
     </head>
 
     <body onload="myFunction2()">
@@ -25,6 +34,11 @@
         </header>
         <main class="content">
             <section class="homepage">
+                <span class="container" id="button" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </span>
 
                 <div class="maincontent">
                     <div class="maintext">
@@ -176,29 +190,31 @@
                         </p>
                     </div>
     
-                    <div class="nav">
+                    <span class="hidemenu" id="hidemenu">
+                        <div class="nav">
         
-                        <div class="circle1">
-                            <a class="text1" id="btn1" href="#">Myself</a>
-                        </div>
+                            <div class="circle1">
+                                <a class="text1" id="btn1" href="#">Myself</a>
+                            </div>
+        
+                            <div class="circle2">
+                                <a class="text2" id="btn2" href="#">Brother</a>
+                            </div>
+        
+                            <div class="circle3">
+                                <a class="text3" id="btn3" href="#">Uncle</a>
+                            </div>
+        
+                            <div class="circle4">
+                                <a class="text4" id="btn4" href="#">Mother</a>
+                            </div>
     
-                        <div class="circle2">
-                            <a class="text2" id="btn2" href="#">Brother</a>
+                            <div class="circle5">
+                                <a class="text5" id="btn5" href="#">Mark</a>
+                            </div>
+                            
                         </div>
-    
-                        <div class="circle3">
-                            <a class="text3" id="btn3" href="#">Uncle</a>
-                        </div>
-    
-                        <div class="circle4">
-                            <a class="text4" id="btn4" href="#">Mother</a>
-                        </div>
-
-                        <div class="circle5">
-                            <a class="text5" id="btn5" href="#">Mark</a>
-                        </div>
-                        
-                    </div>
+                    </span>
                 </div>
 
                 <span class="hidemenu2" id="hidemenu2">

@@ -224,3 +224,197 @@ h1 {
     50%  {color: black;}
     100%  {color: white;}
 }
+
+@media (max-width: 400px) {
+
+    body {
+        max-width: 375px;
+        height: 800px;
+    }
+    
+    .left{
+        position: relative;
+        top: 0;
+        width: 330px;
+        height: 439px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        position: absolute;
+        width: 330px;
+        height: 439px;
+        left: 0px;
+        top: 0px;
+        font-family: 'Abhaya Libre', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+        animation-name: example;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .circle1 {
+        background-color:transparent;
+        border:1.5px solid white;    
+        height: 169px;
+        border-radius:50%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        width: 169px;
+        position: absolute;
+        width: 169px;
+        height: 169px;
+        left: 230px;
+        top: 205px;
+    }
+
+    .circle2 {
+        background-color:transparent;
+        border:1.5px solid white;    
+        height: 169px;
+        border-radius:50%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        width: 169px;    
+        position: absolute;   
+        left: 45px;
+        top: 271px;
+        box-sizing: border-box;
+    }
+
+    .circle3 {
+        background-color:transparent;
+        border:1.5px solid white;    
+        height: 169px;
+        border-radius:50%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        width: 169px; 
+        position: absolute;
+        left: 94px;
+        top: 385px;
+        box-sizing: border-box;
+    }
+
+    .circle4 {
+        background-color:transparent;
+        border:1.5px solid white;    
+        height: 169px;
+        border-radius:50%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        width: 169px; 
+        position: absolute;
+        left: -19px;
+        top: 485px;
+        box-sizing: border-box;
+    }
+
+    .circle5 {
+        background-color:transparent;
+        border:1.5px solid white;    
+        height: 169px;
+        border-radius:50%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        width: 169px;  
+        position: absolute;
+        left: 2px;
+        top: 508px;
+        box-sizing: border-box;
+        left: 230px;
+        top: 537px;
+    }
+    
+    .text1 {
+        font-family: 'Abhaya Libre', serif;
+        position: absolute;
+        width: 150px;
+        height: 91px;
+        left: 10px;
+        top: 50px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 59px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .text2 {
+        font-family: 'Abhaya Libre', serif;
+        position: absolute;
+        width: 150px;
+        height: 91px;
+        left: 21px;
+        top: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 59px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .text3 {
+        font-family: 'Abhaya Libre', serif;
+        position: absolute;
+        width: 150px;
+        height: 91px;
+        left: 30px;
+        top: 52px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 59px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .text4 {
+        font-family: 'Abhaya Libre', serif;
+        position: absolute;
+        width: 150px;
+        height: 91px;
+        left: 0px;
+        top: 100px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 59px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .text5 {
+        font-family: 'Abhaya Libre', serif;
+        position: absolute;
+        width: 150px;
+        height: 91px;
+        left: 20px;
+        top: 90px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 59px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+}

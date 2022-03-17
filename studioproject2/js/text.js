@@ -464,4 +464,24 @@ function myFunction5() {
     mark4.style.color = "#DC3535";
 }
 
+function myFunction(x) {
+     x.classList.toggle("change");
+}
 
+var button = document.querySelector("#button");
+var hidemenu = document.querySelector('.hidemenu');
+var bodytext = document.querySelector('.bodytext');
+
+  button.addEventListener('click', function() {
+     hidemenu.classList.toggle ("hidemenu-active")
+     bodytext.classList.toggle ("bodytext-active");
+
+     if (hidemenu.getAttribute("hidemenu") == hidemenu.style) {
+       hidemenu.style = hidemenu.getAttribute("hidemenu-active")
+       bodytext.style = bodytext.getAttribute("bodytext");
+
+    } else {
+       hidemenu.setAttribute("hidemenu-active", hidemenu.style);
+      bodytext.style = bodytext.getAttribute("bodytext-active");
+    }
+  }, false);

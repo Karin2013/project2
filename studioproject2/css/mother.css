@@ -21,7 +21,7 @@ body {
     flex-direction: column;
 }
 
-.maincontent-itmes {
+.maincontent-items {
     margin: 20px;
 }
 
@@ -39,6 +39,10 @@ body {
     max-width: 550px;
     height: 452px;
     left: 750px;
+}
+
+.hidemenu{
+    display: none;
 }
 
 
@@ -313,7 +317,149 @@ p {
     text-decoration: none;
 }
 
+.menu {
+    display: none;
+}
 
+@media (max-width: 400px) {
+    body {
+        max-width: 375px;
+    }
+    
+    .maincontent {
+        display: inline-block;
+        width: 375px;
+    }
+
+    .container {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .bar1, .bar2, .bar3 {
+        display: block;
+        width: 32px;
+        height: 2.5px;
+        background-color: white;
+        margin: 7px 330px;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+        transform: rotate(-45deg) translate(-8px, 6px);
+    }
+      
+    .change .bar2 {opacity: 0;}
+      
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-7px, -7px);
+        transform: rotate(45deg) translate(-7px, -7px);
+    }
+
+    .hidemenu{
+        display: none;
+    }
+
+    .hidemenu-active {
+        display: block;
+        background-color: thistle;
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 200px;
+        height: 500px;
+    }
+
+    .nav {
+        display: none;
+        background-color: blue;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 200px;
+    }
+
+    .text1 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .text2 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .text3 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .text4 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .text5 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .circle1 {
+        background-color:transparent;   
+        width: 200px;
+        box-sizing: border-box;
+    }
+
+    .circle2 {
+        background-color:transparent;    
+        width: 200px;
+        box-sizing: border-box;
+    }
+
+    .circle3 {
+        background-color:transparent;  
+        width: 200px;
+        height: 105px;
+        box-sizing: border-box;
+    }
+
+    .circle4 {
+        background-color:transparent;  
+        width: 200px;
+        height:  105px;
+        box-sizing: border-box;
+    }
+
+    .circle5 {
+        background-color: transparent;   
+        width: 200px;
+        height: 105px;
+        box-sizing: border-box;  
+    }
+
+    .bodytext {
+        max-height: 520px;
+        overflow-y: scroll;
+        margin-top: 30px;
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .bodytext-active {
+        display: none;
+    }
+
+    .button1 {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        vertical-align: bottom;
+        width: 50px;
+        align-content: center;
+        height: 70px;
+    }
+}
 
 
 

@@ -107,7 +107,8 @@ var brother3 = document.querySelector(".brother3")
 var brother4 = document.querySelector(".brother4")
 var brother5 = document.querySelector(".brother5")
 var brother6 = document.querySelector(".brother6")
-var brother7 = document.querySelector(".brother7");
+var brother7 = document.querySelector(".brother7")
+var brother8 = document.querySelector(".brother8");
 
 btn2.addEventListener('click', function() {
   btn2.classList.toggle('text2-active')
@@ -118,7 +119,8 @@ btn2.addEventListener('click', function() {
   brother4.classList.toggle('brother4-active')
   brother5.classList.toggle('brother5-active')
   brother6.classList.toggle('brother6-active')
-  brother7.classList.toggle('brother7-active');
+  brother7.classList.toggle('brother7-active')
+  brother8.classList.toggle('brother8-active');
 
   if (btn2.getAttribute("text2") == btn2.style) {
     btn2.style = btn2.getAttribute("text2-active")
@@ -143,7 +145,7 @@ btn2.addEventListener('click', function() {
     brother5.style = brother5.getAttribute("brother5")
     brother6.style = brother6.getAttribute("brother6")
     brother7.style = brother7.getAttribute("brother7")
-    brother8.style = brother8.getAttribute("brother8-active");
+    brother8.style = brother8.getAttribute("brother8");
   }
 }, false);
 
@@ -375,6 +377,7 @@ function myFunction1() {
     myself11.style.color = "#FFE49F"; 
     myself12.style.color = "#FFE49F"; 
     myself13.style.color = "#FFE49F";
+    hidemenu.style.display = "block";
 }
 
 function myFunction2() {
@@ -400,6 +403,7 @@ function myFunction2() {
     brother6.style.color = "#B0D5FF"; 
     brother7.style.color = "#B0D5FF"; 
     brother8.style.color = "#B0D5FF";
+    hidemenu.style.display = "block";
 }
 
 function myFunction3() {  
@@ -421,6 +425,7 @@ function myFunction3() {
     uncle4.style.color = "#95FFE6";
     uncle5.style.color = "#95FFE6";
     uncle6.style.color = "#95FFE6";
+    hidemenu.style.display = "block";
 }
 
 function myFunction4() {
@@ -444,6 +449,7 @@ function myFunction4() {
     mother5.style.color = "#B69DFD";
     mother6.style.color = "#B69DFD";
     mother7.style.color = "#B69DFD";
+    hidemenu.style.display = "block";
 }
 
 
@@ -462,6 +468,7 @@ function myFunction5() {
     mark2.style.color = "#DC3535";
     mark3.style.color = "#DC3535";
     mark4.style.color = "#DC3535";
+    hidemenu.style.display = "block";
 }
 
 function myFunction(x) {

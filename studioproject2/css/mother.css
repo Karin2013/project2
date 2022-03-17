@@ -321,7 +321,7 @@ p {
     display: none;
 }
 
-@media (max-width: 400px) {
+@media onlyscreen and (max-width: 400px) {
     body {
         width: 375px;
         position: fixed;
@@ -336,6 +336,12 @@ p {
 
     .container {
         display: block;
+        background-color: blue;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 140px;
+        left: 40px;
         cursor: pointer;
     }
 
@@ -378,7 +384,7 @@ p {
         margin-bottom: 30px;
     }
 
-    .nav {
+    .nav { 
         position: absolute;
         top: -30px;
         left: 0px;
@@ -490,10 +496,10 @@ p {
     }
 
     .button1 {
+        display: block;
         position: absolute;
-        top: 50px;
+        bottom: 30px;
         left: 50px;
-        vertical-align: bottom;
         width: 50px;
         align-content: center;
         height: 70px;
@@ -555,7 +561,7 @@ p {
     }
 }
 
-@media (max-width: 1280px) {
+@media onlyscreen and(max-width: 1280px) {
     body {
         background: black;
         max-width: 1280px;

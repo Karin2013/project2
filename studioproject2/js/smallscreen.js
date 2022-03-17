@@ -468,8 +468,6 @@ function myFunction5() {
     mark2.style.color = "#DC3535";
     mark3.style.color = "#DC3535";
     mark4.style.color = "#DC3535";
-    hidemenu.style.display = "block";
-
 }
 
 function myFunction(x) {
@@ -479,6 +477,7 @@ function myFunction(x) {
 var button = document.querySelector("#button");
 var hidemenu = document.querySelector('.hidemenu');
 var bodytext = document.querySelector('.bodytext');
+var container = document.querySelector('.container');
 
   button.addEventListener('click', function() {
      hidemenu.classList.toggle ("hidemenu-active")

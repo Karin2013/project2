@@ -41,11 +41,6 @@ body {
     left: 750px;
 }
 
-.hidemenu{
-    display: none;
-}
-
-
 .circle1 {
     background-color:transparent;   
     width: 100%;
@@ -108,9 +103,6 @@ body {
 .circle5 a:hover {
     color: #DC3535;
 }
-
-
-
 
 .nav {
     position: absolute;
@@ -206,6 +198,8 @@ body {
     color: #DC3535;
     text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #ab88ec, 0 0 40px #ab88ec, 0 0 50px #ab88ec, 0 0 60px #ab88ec, 0 0 70px #ab88ec ;
 }
+
+
 
 h1 {
     position: absolute;
@@ -321,6 +315,10 @@ p {
     display: none;
 }
 
+.hidemenu {
+    display: none;
+}
+
 @media (max-width: 400px) {
     body {
         width: 375px;
@@ -337,7 +335,7 @@ p {
     .container {
         display: block;
         position: absolute;
-        top: 140px;
+        top: 100px;
         left: 0px;
         cursor: pointer;
     }
@@ -363,33 +361,38 @@ p {
     }
 
     .hidemenu{
+        visibility: hidden; 
         display: none;
     }
 
     .hidemenu-active {
+        visibility: visible;
         display: block;
-        display: flex;
-        flex-direction: row;
         position: absolute;
-        top: 130px;
+        top: 30px;
         left: 80px;
         width: 200px;
-        height: 500px;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        height: 500px; 
     }
 
     .hidemenu-items {
+        display: none;
         margin-bottom: 30px;
     }
 
     .nav { 
         position: absolute;
-        top: -30px;
         left: 0px;
-        width: 200px;
         display: flex;
+        margin-right: 80px;
         flex-direction: column;
         align-content: center;
         align-items: center;
+        width: 200px;
     }
 
     .nav-items {
@@ -538,7 +541,6 @@ p {
         bottom: 0px;
         left: 50px;
         width: 50px;
-        align-content: center;
         height: 70px;
     }
     
@@ -547,7 +549,7 @@ p {
     }
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 400px) {
     body {
         background: black;
         max-width: 1280px;
@@ -590,11 +592,6 @@ p {
         height: 452px;
         left: 750px;
     }
-    
-    .hidemenu{
-        display: none;
-    }
-    
     
     .circle1 {
         background-color:transparent;   
@@ -864,9 +861,6 @@ p {
         text-decoration: none;
     }
     
-    .container {
-        display: none;
-    }
 
 }
 

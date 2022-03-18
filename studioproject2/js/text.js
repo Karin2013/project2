@@ -456,6 +456,11 @@ function myFunction5() {
   var mark2 = document.querySelector(".mark2")
   var mark3 = document.querySelector(".mark3")
   var mark4 = document.querySelector(".mark4");
+  var bar1 = document.querySelector(".bar1");
+  var bar2 = document.querySelector(".bar2");
+  var bar3 = document.querySelector(".bar3");
+  var hidemenu = document.querySelector('.hidemenu');
+
 
     btn5.style.color = "#DC3535";
     btn5.style.textShadow = "0 0 5px #fff, 0 0 20px #fff, 0 0 30px #ab88ec, 0 0 40px #ab88ec, 0 0 50px #ab88ec, 0 0 60px #ab88ec, 0 0 70px #ab88ec";
@@ -464,6 +469,10 @@ function myFunction5() {
     mark2.style.color = "#DC3535";
     mark3.style.color = "#DC3535";
     mark4.style.color = "#DC3535";
+    bar1.style.display = "block";
+    bar2.style.display = "block";
+    bar3.style.display = "block";
+    hidemenu.style.display ="none";
 }
 
 function myFunction(x) {
@@ -478,12 +487,11 @@ var bodytext = document.querySelector('.bodytext');
      hidemenu.classList.toggle ("hidemenu-active")
      bodytext.classList.toggle ("bodytext-active");
 
-     if (hidemenu.getAttribute("hidemenu") == hidemenu.style) {
-       hidemenu.style = hidemenu.getAttribute("hidemenu-active")
+     if (hidemenu.getAttribute("hidemenu-active") == hidemenu.style) {
        bodytext.style = bodytext.getAttribute("bodytext");
 
     } else {
-       hidemenu.setAttribute("hidemenu-active", hidemenu.style);
+       hidemenu.setAttribute("hidemenu", hidemenu.style);
        bodytext.style = bodytext.getAttribute("bodytext-active");
        button.style.display = "block"
     }

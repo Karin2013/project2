@@ -360,6 +360,7 @@ function myFunction1() {
   var myself11 = document.querySelector(".myself11")
   var myself12 = document.querySelector(".myself12")
   var myself13 = document.querySelector(".myself13");
+  var hidemenu = document.querySelector('.hidemenu');
 
     btn1.style.color = "#FFE49F";
     btn1.style.textShadow = "0 0 5px #fff, 0 0 20px #fff, 0 0 30px #ab88ec, 0 0 40px #ab88ec, 0 0 50px #ab88ec, 0 0 60px #ab88ec, 0 0 70px #ab88ec";
@@ -391,6 +392,7 @@ function myFunction2() {
   var brother6 = document.querySelector(".brother6")
   var brother7 = document.querySelector(".brother7")
   var brother8 = document.querySelector(".brother8");
+  var hidemenu = document.querySelector('.hidemenu');
 
     btn2.style.color = "#B0D5FF";
     btn2.style.textShadow = "0 0 5px #fff, 0 0 20px #fff, 0 0 30px #ab88ec, 0 0 40px #ab88ec, 0 0 50px #ab88ec, 0 0 60px #ab88ec, 0 0 70px #ab88ec";
@@ -415,6 +417,7 @@ function myFunction3() {
   var uncle4 = document.querySelector(".uncle4")
   var uncle5 = document.querySelector(".uncle5")
   var uncle6 = document.querySelector(".uncle6"); 
+  var hidemenu = document.querySelector('.hidemenu');
 
     btn3.style.color = "#95FFE6";
     btn3.style.textShadow = "0 0 5px #fff, 0 0 20px #fff, 0 0 30px #ab88ec, 0 0 40px #ab88ec, 0 0 50px #ab88ec, 0 0 60px #ab88ec, 0 0 70px #ab88ec";
@@ -438,6 +441,7 @@ function myFunction4() {
   var mother5 = document.querySelector(".mother5")
   var mother6 = document.querySelector(".mother6")
   var mother7 = document.querySelector(".mother7");
+  var hidemenu = document.querySelector('.hidemenu');
 
     btn4.style.color = "#B69DFD";
     btn4.style.textShadow = "0 0 5px #fff, 0 0 20px #fff, 0 0 30px #ab88ec, 0 0 40px #ab88ec, 0 0 50px #ab88ec, 0 0 60px #ab88ec, 0 0 70px #ab88ec";

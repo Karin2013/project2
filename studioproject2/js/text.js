@@ -25,80 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-function myFunction() {
-
-  var reveal = document.querySelector(".reveal");
-
-  btn2.classList.toggle('text2-active')
-  btn1.classList.toggle('text1-active')
-  btn3.classList.toggle('text3-active')
-  btn5.classList.toggle('text5-active')
-  btn4.classList.toggle('text4-active')
-  myself.classList.toggle('myself-active'),
-  myself1.classList.toggle('myself1-active')
-  myself2.classList.toggle('myself2-active')
-  myself3.classList.toggle('myself3-active')
-  myself4.classList.toggle('myself4-active')
-  myself5.classList.toggle('myself5-active')
-  myself7.classList.toggle('myself7-active')
-  myself7.classList.toggle('myself7-active')
-  myself8.classList.toggle('myself8-active')
-  myself9.classList.toggle('myself9-active')
-  myself10.classList.toggle('myself10-active')
-  myself11.classList.toggle('myself11-active')
-  myself12.classList.toggle('myself12-active')
-  myself13.classList.toggle('myself13-active')
-  brother.classList.toggle('brother-active')
-  brother1.classList.toggle('brother1-active')
-  brother2.classList.toggle('brother2-active')
-  brother3.classList.toggle('brother3-active')
-  brother4.classList.toggle('brother4-active')
-  brother5.classList.toggle('brother5-active')
-  brother6.classList.toggle('brother6-active')
-  uncle.classList.toggle('uncle-active')
-  uncle1.classList.toggle('uncle1-active')
-  uncle2.classList.toggle('uncle2-active')
-  uncle3.classList.toggle('uncle3-active')
-  uncle4.classList.toggle('uncle4-active')
-  uncle5.classList.toggle('uncle5-active')
-  uncle6.classList.toggle('uncle6-active')
-  mother.classList.toggle('mother-active')
-  mother1.classList.toggle('mother1-active')
-  mother2.classList.toggle('mother2-active')
-  mother3.classList.toggle('mother3-active')
-  mother4.classList.toggle('mother4-active')
-  mother5.classList.toggle('mother5-active')
-  mother6.classList.toggle('mother6-active')
-  mother7.classList.toggle('mother7-active')
-  mark.classList.toggle('mark-active')
-  mark1.classList.toggle('mark1-active')
-  mark2.classList.toggle('mark2-active')
-  mark3.classList.toggle('mark3-active')
-  mark4.classList.toggle('mark4-active');
-
-
-  if (reveal.value == "Hide all") {
-      reveal.value = "Show all";
-      reveal.innerHTML = "Show all";
-      btn1.style = btn1.getAttribute("text1-active");
-      btn2.style = btn2.getAttribute("text2-active");
-      btn3.style = btn3.getAttribute("text3-active");
-      btn4.style = btn4.getAttribute("text4-active");
-      btn5.style = btn5.getAttribute("text5-active");
-    
-  }
-  else {
-      reveal.value = "Hide all";
-      reveal.innerHTML = "Hide all";
-      btn1.style = btn1.getAttribute("text1");
-      btn2.style = btn2.getAttribute("text2");
-      btn3.style = btn3.getAttribute("text3");
-      btn4.style = btn4.getAttribute("text4");
-      btn5.style = btn5.getAttribute("text5");
-  }
-
-}
-
 var btn2 = document.querySelector('#btn2');
 var brother = document.querySelector(".brother")
 var brother1 = document.querySelector(".brother1")
@@ -482,17 +408,21 @@ function myFunction(x) {
 var button = document.querySelector("#button");
 var hidemenu = document.querySelector('.hidemenu');
 var bodytext = document.querySelector('.bodytext');
+var hidemenu2 = document.querySelector('.hidemenu2');
 
   button.addEventListener('click', function() {
      hidemenu.classList.toggle ("hidemenu-active")
      bodytext.classList.toggle ("bodytext-active");
+     hidemenu2.classList.toggle ("hidemenu2-active");
 
      if (hidemenu.getAttribute("hidemenu-active") == hidemenu.style) {
        bodytext.style = bodytext.getAttribute("bodytext");
+       hidemenu2.style = hidemenu2.getAttribute("hidemenu2-active");
 
     } else {
        hidemenu.setAttribute("hidemenu", hidemenu.style);
        bodytext.style = bodytext.getAttribute("bodytext-active");
        button.style.display = "block"
+       hidemenu2.style = hidemenu2.getAttribute("hidemenu2");
     }
   }, false);

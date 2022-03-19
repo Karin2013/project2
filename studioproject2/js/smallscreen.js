@@ -163,7 +163,8 @@ var myself9 = document.querySelector(".myself9")
 var myself10 = document.querySelector(".myself10")
 var myself11 = document.querySelector(".myself11")
 var myself12 = document.querySelector(".myself12")
-var myself13 = document.querySelector(".myself13");
+var myself13 = document.querySelector(".myself13")
+var scrolldown = document.querySelector(".scrolldown");
 
 btn1.addEventListener('click', function() {
   btn1.classList.toggle('text1-active'),
@@ -181,6 +182,7 @@ btn1.addEventListener('click', function() {
   myself11.classList.toggle('myself11-active')
   myself12.classList.toggle('myself12-active')
   myself13.classList.toggle('myself13-active');
+  scrolldown.classList.toggle ("scrolldown-active");
 
   if (btn1.getAttribute("text1") == btn1.style) {
     btn1.style = btn1.getAttribute("text1-active"),
@@ -198,6 +200,7 @@ btn1.addEventListener('click', function() {
     myself11.style = myself11.getAttribute("myself11-active")
     myself12.style = myself12.getAttribute("myself12-active")
     myself13.style = myself13.getAttribute("myself13-active");
+    scrolldown.style = scrolldown.getAttribute("scrolldown");
   } else {
     btn1.getAttribute("text1-active", btn1.style);
     btn1.style = btn1.getAttribute("text1"),
@@ -483,18 +486,21 @@ function myFunction(x) {
 var button = document.querySelector("#button");
 var hidemenu = document.querySelector('.hidemenu');
 var bodytext = document.querySelector('.bodytext');
+var hidemenu2 = document.querySelector('.hidemenu2');
 
   button.addEventListener('click', function() {
      hidemenu.classList.toggle ("hidemenu-active")
      bodytext.classList.toggle ("bodytext-active");
+     hidemenu2.classList.toggle ("hidemenu2-active");
 
-     if (hidemenu.getAttribute("hidemenu") == hidemenu.style) {
-       hidemenu.style = hidemenu.getAttribute("hidemenu-active")
+     if (hidemenu.getAttribute("hidemenu-active") == hidemenu.style) {
        bodytext.style = bodytext.getAttribute("bodytext");
+       hidemenu2.style = hidemenu2.getAttribute("hidemenu2-active");
 
     } else {
-       hidemenu.setAttribute("hidemenu-active", hidemenu.style);
+       hidemenu.setAttribute("hidemenu", hidemenu.style);
        bodytext.style = bodytext.getAttribute("bodytext-active");
        button.style.display = "block"
+       hidemenu2.style = hidemenu2.getAttribute("hidemenu2");
     }
   }, false);

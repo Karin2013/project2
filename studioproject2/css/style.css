@@ -21,14 +21,14 @@ body {
 .circle1 {
     background-color:transparent;
     border:1.5px solid white;    
-    height: 337px;
+    height: 310px;
     border-radius:50%;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
-    width: 337px;
+    width: 310px;
     position: absolute;
     left: 573px;
-    top: -82px;
+    top: -52px;
     box-sizing: border-box;
 }
 
@@ -43,10 +43,10 @@ body {
     border-radius:50%;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
-    width: 337px;    
+    width: 310px;    
     position: absolute;
-    width: 337px;
-    height: 337px;
+    width: 310px;
+    height: 310px;
     left: 197px;
     top: 128px;
     box-sizing: border-box;
@@ -59,14 +59,14 @@ body {
 .circle3 {
     background-color:transparent;
     border:1.5px solid white;    
-    height: 337px;
+    height: 310px;
     border-radius:50%;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
-    width: 337px; 
+    width: 310px; 
     position: absolute;
-    width: 337px;
-    height: 337px;
+    width: 310px;
+    height: 310px;
     left: 313px;
     top: 348px;
     box-sizing: border-box;
@@ -79,14 +79,14 @@ body {
 .circle4 {
     background-color:transparent;
     border:1.5px solid white;    
-    height: 337px;
+    height: 310px;
     border-radius:50%;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
-    width: 337px; 
+    width: 310px; 
     position: absolute;
-    width: 337px;
-    height: 337px;
+    width: 310px;
+    height: 310px;
     left: 83px;
     top: 517px;
     box-sizing: border-box;
@@ -105,10 +105,10 @@ body {
     -webkit-border-radius:50%;
     width: 337px;  
     position: absolute;
-    width: 337px;
-    height: 337px;
+    width: 310px;
+    height: 310px;
     left: 852px;
-    top: 508px;
+    top: 480px;
     box-sizing: border-box;  
 }
 

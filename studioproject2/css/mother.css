@@ -29,13 +29,13 @@ body {
 .bodytext {
     max-height: 520px;
     overflow-y: scroll;
-    margin-top: 30px;
+    margin-top: 10px;
     max-width: 550px;
 }
 
 .nav {
     background-color: transparent;
-    margin-top: 120px;
+    margin-top: 100px;
     max-width: 550px;
     height: 452px;
     left: 750px;
@@ -106,7 +106,7 @@ body {
 
 .nav {
     position: absolute;
-    top: 100px;
+    top: 70px;
     width: 50%;
     right: 0;
 }

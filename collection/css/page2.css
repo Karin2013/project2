@@ -1,0 +1,136 @@
+body {
+    background-size: 100%;
+    cursor: none;
+}
+
+.menu {
+    height: 482px;
+    width: 938px;
+    background-color: grey;
+    place-self: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.touch {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    position: absolute;
+    right: 260px;
+    top: 130px;
+}
+
+.element {
+    height: 482px;
+    width: 938px;
+    place-self: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    padding-top: 120px;
+}
+
+.symbol {
+    height: 100px;
+    width: 85px;
+    background-color: black;
+    margin: 65px;
+
+}
+
+h4 {
+    vertical-align: middle;
+    color: white;
+    position: relative;
+    font-size: 40px;
+}
+
+h3 {
+    vertical-align: middle;
+    color: white;
+    position: relative;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+@media (max-width: 400px) {
+    body {
+        width: 400px;
+        position: fixed;
+    }
+
+    .menu {
+        height: 700px;
+        width: 338px;
+        background-color: grey;
+        place-self: center;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .touch {
+        height: 40px;
+        width: 40px;
+        background-color: black;
+        position: absolute;
+        right: 50px;
+        top: 130px;
+    }
+    
+    .element {
+        height: 700px;
+        width: 338px;
+        place-self: center;
+        place-content: center;
+        place-items: center;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: -20px;
+        margin-left: -30px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        padding-top: 100px;
+    }
+    
+    .symbol {
+        height: 70px;
+        width: 90px;
+        background-color: black;
+        margin: 25px;
+        
+    }
+    
+    h4 {
+        vertical-align: middle;
+        color: white;
+        position: relative;
+        font-size: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h3 {
+        vertical-align: middle;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+}

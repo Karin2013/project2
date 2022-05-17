@@ -1,15 +1,15 @@
 function myFunction() {
     idArray = new Array()
-    idArray [1] = "TRY A MORE UNLIKELY SOLUTION"
-    idArray [2] = "THIS IS A GOOD TIME TO MAKE A NEW PLAN"
-    idArray [3] = "DON'T BE CONCERNED"
-    idArray [4] = "IT MAY ALREADY BE A DONE DEAL"
-    idArray [5] = "GET A CLEARER VIEW"
-    idArray [6] = "SETTLE IT SOON"
-    idArray [7] = "ABSOLUTELY NOT"
-    idArray [8] = "BE PRACTICAL"
-    idArray [9] = "IT IS NOT SIGNIFICANT"
-    idArray [10] = "KEEP IT TO YOURSELFS"
+    idArray [1] = "RELATED ISSUES MAY SURFACE"
+    idArray [2] = "DO IT EARLY"
+    idArray [3] = "WAIT"
+    idArray [4] = "YOU'LL HAVE TO MAKE IT UP AS YOU GO"
+    idArray [5] = "NO MATTER WHAT"
+    idArray [6] = "TAKE MORE TIME TO DECIDE"
+    idArray [7] = "A YEAR FROM NOW IT WON'T MATTER"
+    idArray [8] = "TAKE A CHANCE"
+    idArray [9] = "UNQUESTIONABLY"
+    idArray [10] = "DON'T GET CAUGHT UP IN YOUR EMOTIONS"
 
   
     document.getElementById("select").onclick = myFunction;
@@ -21,4 +21,3 @@ function myFunction() {
     document.getElementById('result1').style.visibility = "visible"    
     document.getElementById('button1').style.visibility = "visible"  
 }
-

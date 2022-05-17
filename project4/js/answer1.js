@@ -1,15 +1,15 @@
 function myFunction() {
     idArray = new Array()
-    idArray [1] = "TRY A MORE UNLIKELY SOLUTION"
-    idArray [2] = "THIS IS A GOOD TIME TO MAKE A NEW PLAN"
-    idArray [3] = "DON'T BE CONCERNED"
-    idArray [4] = "IT MAY ALREADY BE A DONE DEAL"
-    idArray [5] = "GET A CLEARER VIEW"
-    idArray [6] = "SETTLE IT SOON"
-    idArray [7] = "ABSOLUTELY NOT"
-    idArray [8] = "BE PRACTICAL"
-    idArray [9] = "IT IS NOT SIGNIFICANT"
-    idArray [10] = "KEEP IT TO YOURSELFS"
+    idArray [1] = "DON'T OVERDO IT"
+    idArray [2] = "STRONG COMMITMENT WILL ACHIEVE GOOD RESULTS"
+    idArray [3] = "ENJOY THE EXPERIENCE"
+    idArray [4] = "YES BUT DON'T FORCE IT"
+    idArray [5] = "WATCH AND SEE WHAT HAPPENS"
+    idArray [6] = "SEEK OUT MORE OPTIONS"
+    idArray [7] = "YOU'LL NEED MORE INFORMATION"
+    idArray [8] = "IT CANNOT FALL"
+    idArray [9] = "EXPLORE IT WITH PLAYFUL CURIOSITY"
+    idArray [10] = "DON'T BET ON IT"
 
   
     document.getElementById("select").onclick = myFunction;

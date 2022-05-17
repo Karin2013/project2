@@ -10,6 +10,11 @@ function myFunction() {
     idArray [8] = "TRUST YOUR INTUITION"
     idArray [9] = "GIVE IT ALL YOU'RE GOT"
     idArray [10] = "DEAL WITH IT LATER"
+    idArray [11] = "YOU DON'T REALLY CARE"
+    idArray [12] = "EXPECT TO SETTLE"
+    idArray [13] = "DON'T ASK FOR ANY MORE AT THIS TIME"
+    idArray [14] = "LISTEN MORE CAREFULLY;THEN YOU WILL KNOW"
+    idArray [15] = "DON'T WAIT"
 
   
     document.getElementById("select").onclick = myFunction;

@@ -10,6 +10,11 @@ function myFunction() {
     idArray [8] = "BE PRACTICAL"
     idArray [9] = "IT IS NOT SIGNIFICANT"
     idArray [10] = "KEEP IT TO YOURSELFS"
+    idArray [11] = "IF YOU DON'T RESIST"
+    idArray [12] = "IT IS SURE TO MAKE THINGS INTERESTING"
+    idArray [13] = "THE SITUATION IS UNCLEAR"
+    idArray [14] = "YOU WILL NEED TO ACCOMMODATE"
+    idArray [15] = "IT WILL BE A PLEASURE"
 
   
     document.getElementById("select").onclick = myFunction;

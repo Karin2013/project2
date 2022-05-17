@@ -10,6 +10,11 @@ function myFunction() {
     idArray [8] = "TAKE A CHANCE"
     idArray [9] = "UNQUESTIONABLY"
     idArray [10] = "DON'T GET CAUGHT UP IN YOUR EMOTIONS"
+    idArray [11] = "THAT WOULD BE A WASTE OF MONEY"
+    idArray [12] = "NOW YOU CAN"
+    idArray [13] = "YOU WILL NOT BE DISAPPOINTED"
+    idArray [14] = "FOLLOW THE ADVICE OF EXPERTS"
+    idArray [15] = "UNFAVORABLE AT THIS TIME"
 
   
     document.getElementById("select").onclick = myFunction;

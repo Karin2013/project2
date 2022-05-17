@@ -361,3 +361,17 @@ a {
 a:active {
     text-decoration: none;
 }
+
+#drawing1 {
+    margin-top: -130px;
+    margin-left: 50px;
+    width: 500px;
+    animation: fadeIn 8s;
+    visibility: hidden;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+  }

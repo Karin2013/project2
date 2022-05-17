@@ -20,5 +20,6 @@ function myFunction() {
     document.getElementById('questionbox1').style.display = "none"  
     document.getElementById('result1').style.visibility = "visible"    
     document.getElementById('button1').style.visibility = "visible"  
+    document.getElementById('drawing1').style.visibility = "visible" 
 }
 
